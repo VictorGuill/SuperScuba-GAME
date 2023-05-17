@@ -67,7 +67,8 @@ function gameLoop(millis) {
             break;
           case "exit":
             menu_start.remove();
-            window.location.href = "https://victorguill.github.io/";
+            // window.location.href = "https://victorguill.github.io/";
+            window.close();
             break;
         }
       }
@@ -125,7 +126,8 @@ function gameLoop(millis) {
             break;
           case "exit":
             end_screen.remove();
-            window.location.href = "https://victorguill.github.io/";
+            // window.location.href = "https://victorguill.github.io/";
+            window.close();
             break;
         }
       }
